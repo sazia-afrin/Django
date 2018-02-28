@@ -58,4 +58,33 @@ class IndexView(generic.ListView):
 		return Question.objects.order_by('-pub_date')[:5]
 
 
-		return render(request, 'polls/template_name.html', context)
+def new_test_f ():
+    pass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+return render(request, 'polls/template_name.html', context)
