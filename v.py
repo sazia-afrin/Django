@@ -56,10 +56,9 @@ class IndexView(generic.ListView):
 	def get_queryset(self):
 		"""Return the last five published questions."""
 		return Question.objects.order_by('-pub_date')[:5]
-
-
-def new_test_f ():
+def New(request):
     pass
+
 
 
 
